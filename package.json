@@ -1,12 +1,21 @@
 {
   "name": "graphql-x-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A blazing fast GraphQL APIs with Node.js and MongoDB.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Sorawit",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sorawitt/graphql-x-api.git"
+  }
 }
